@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 
+html{   
+    font-size: 62.5%;
+
+}
+
 .cabecalho{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-color: #d9d9d9;
+    background-color: #000000;
 }
 
 .cabecalho img{
@@ -36,6 +41,36 @@
 }
 
 .cabecalho a:hover{
-    background-color: black;
-    color: white;
+    background-color: #fff;
+    color: #000000;
 }
+
+.tit-sec {
+    text-align: center;
+    font-size: 5rem;
+    margin: 5% 0;
+}
+
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50vw; /*vw = viewport width -- vh = viewport height **/
+    margin: 0 auto;
+}
+
+.conteudo img{
+    max-width: 100%;
+    display: block;
+}
+
+/*utilizando as propriedades especificas -- GROW/BASIS/SHRINK **/
+
+.conteudo > div {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px; 
+    /* flex: 1 1 300px; -- grow - shrink - basis */
+}
+
+
+
