@@ -1,5 +1,5 @@
 @import url('./cabecalho.css');
-
+@import url('./conteudo.css');
 *{
     margin: 0;
     padding: 0;
@@ -16,26 +16,7 @@ html{
     margin: 5% 0;
 }
 
-.conteudo{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 50vw; /*vw = viewport width -- vh = viewport height **/
-    margin: 0 auto;
-}
 
-.conteudo img{
-    max-width: 100%;
-    display: block;
-}
-
-/*utilizando as propriedades especificas -- GROW/BASIS/SHRINK **/
-
-.conteudo > div {
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 300px; 
-    /* flex: 1 1 300px; -- grow - shrink - basis */
-}
 
 
 
