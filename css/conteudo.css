@@ -12,9 +12,23 @@
 
 /*utilizando as propriedades especificas -- GROW/BASIS/SHRINK **/
 
-.conteudo > div {
-    flex-grow: 1;
+.conteudo>div {
+    /* flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 300px; 
-    /* flex: 1 1 300px; -- grow - shrink - basis */
+    flex-basis: 300px;  */
+    flex: 1 1 300px; /* -- grow - shrink - basis */
 }
+
+.conteudo table{
+    border-collapse: collapse;
+}
+
+.conteudo table th,td{
+    border: 2px solid #000000;
+}
+
+
+
+
+
+
