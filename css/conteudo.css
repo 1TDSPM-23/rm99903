@@ -30,8 +30,6 @@ th,td{
     padding: 8px;
 }
 
-
-
 tr:nth-child(even){
     background-color: #ccc;
 }
