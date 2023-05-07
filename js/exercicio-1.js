@@ -2,9 +2,14 @@ function mudaDeCor(){
     document.body.bgColor='red';
 }
 
-let lista = [];
-constnewItem = document.createElement('li');
-list.appendChild(newItem);
+
+function formulario(){
+    let list = [];
+    constnewItem = document.createElement('li');
+    list.appendChild(newItem);
+}
+
+
 
 
 
