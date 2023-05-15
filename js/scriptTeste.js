@@ -1,4 +1,4 @@
-console.log("Olá Mundo!");
+//console.log("Olá Mundo!");
 
 //    //Declarar uma variável com a palavra reservada var.
 //    var nr1 = "10";
@@ -73,19 +73,19 @@ console.log("Olá Mundo!");
 
 //ARRAY E SEUS METODOS
 
-let frutas = ["banana", "maça", "morango", "carambola", "acerola", "laranja"];
+// let frutas = ["banana", "maça", "morango", "carambola", "acerola", "laranja"];
 
 //imprimindo um array
-console.log(frutas);
-console.table(frutas);
+// console.log(frutas);
+// console.table(frutas);
 
 //adicionar item no final do array
-frutas.push("melão");
-console.log(frutas);
+// frutas.push("melão");
+// console.log(frutas);
 
 //adicionar item no inicio do array
-frutas.unshift("caju");
-console.log(frutas);
+// frutas.unshift("caju");
+// console.log(frutas);
 
 //para localizar um item dentro do array utilizamos o metodo indexOf(item_nome)
 //let indice = frutas.indexOf("morango");
@@ -93,14 +93,14 @@ console.log(frutas);
 
 //para localizar um item do array e apagar ele utilizamos o metodo splice(indice do item, quantidade de vezes que o indice será removido)
 //obs: utilize o metodo indexOf(item_nome) para obter o indice do item
-let indice = frutas.indexOf("carambola");
-frutas.splice(indice, 1); // se n declarar o numero de vezes ele apaga a posição ate acabar a lista
-console.log(frutas);
+// let indice = frutas.indexOf("carambola");
+// frutas.splice(indice, 1); // se n declarar o numero de vezes ele apaga a posição ate acabar a lista
+// console.log(frutas);
 
 // ForEach - estrutura de repetição interna do proprio array
-frutas.forEach( (fruta)=>{
-    console.log("Olha ele: " + fruta)
-}) 
+// frutas.forEach( (fruta)=>{
+//     console.log("Olha ele: " + fruta)
+// }) 
 
 
 
